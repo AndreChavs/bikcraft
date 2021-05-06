@@ -10,7 +10,6 @@ p{
 }
 img{
     display: block;
-    margin: 0 auto;
 }
 .btn{
     border: 3px solid #fec63e;
@@ -129,9 +128,6 @@ img{
 .produtos{
     padding: 60px 0;
 }
-.produtos .subtitulo{
-
-}
 .lista-produtos li{
     background-color: #fec63e;
     text-align: center;     /*alinha a imagem ao centro assim como o texto*/
@@ -161,6 +157,9 @@ img{
     background-color: #000;
     padding: 20px;
     
+}
+.produtos-icone img{
+    margin: 0 auto;
 }
 .call-to-action{
     padding-top: 20px;
@@ -199,7 +198,9 @@ img{
 /*Qualidade*/
 .qualidade{
     padding: 60px 0;
-
+}
+.qualidade img{
+    margin: 0 auto;
 }
 .qualidade::after{
     content: "";
@@ -238,3 +239,68 @@ img{
 }
 
 /*Fim de Qualidade*/
+/* quebra */
+.quebra{
+    width: 100%;
+    height: 220px;
+    background-image: url(../img/bg-home/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.quebra .quote-externo{
+    max-width: 500px;
+}
+/*Fim da quebra*/
+/*Footer*/
+.footer{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.footer h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fec63e;
+    margin: 8px 0 15px;
+}
+.footer-historia p{
+    max-width: 450px;
+}
+
+.footer-contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.footer-redes ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-redes ul li a{
+    display: block;
+    border: 3px solid #fec63e;
+    padding: 10px;
+}
+.footer-redes ul li a:hover{
+    border-color: #fff;
+}
+.copy{
+    width: 100%;
+    background-color: #fec63e;
+    padding: 20px 0;
+}
