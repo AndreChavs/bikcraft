@@ -1,11 +1,30 @@
 /*Estilo para Tablets*/
 @media only screen and (min-width: 793px) and (max-width:984px){
-	
+    /*HOME - Qualidade*/
+    .qualidade::after{
+        top: 221px;
+        right: 65px;
+    }
+    
+    .lista-qualidade li{
+        padding: 0px 10px;
+        margin-bottom: 20px;
+    }
+    /*HOME - Footer*/
+    .footer-redes ul li a{
+        display: block;
+        border: 3px solid #fec63e;
+        padding: 6px;
+    }
+    .footer-redes ul li a img{
+        width: 26px;
+        height: 26px;
+    }
 }
 
 /*Estilo para SmathPhone*/
 @media only screen and (max-width:793px) {
-    /*HEADER*/
+    /*HOME - HEADER*/
 	.header{
         position: relative;
     }
@@ -35,11 +54,31 @@
         border-color: #fff;
     }
 
-    /*INTRODUÇÃO*/
+    /*HOME - INTRODUÇÃO*/
     .introducao{
         margin-top: 0px;
-        padding: 20px 0;
+        padding: 40px 0;
         height: 400px;
         
+    }
+    .introducao h1{
+        font-size: 36px;
+    }
+
+    /*HOME - Qualidade*/
+    .qualidade::after{
+        background-image: url();
+    }
+    .lista-qualidade{
+        padding-top: 20px;
+        overflow: inherit;        
+    }
+    .lista-qualidade li{
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        border: 1px solid #000;
+    }
+    .lista-qualidade li h3{
+        margin-top: 0;
     }
 }

@@ -243,6 +243,7 @@ img{
     color: #fff;
 }
 /*Fim do Portfólio*/
+
 /*Qualidade*/
 .qualidade{
     padding: 60px 0;
@@ -279,7 +280,6 @@ img{
     letter-spacing: .1em;
     padding: 10px 0;
     margin-top: 20px;
-
 }
 .lista-qualidade li h3::after{
     content: "";
