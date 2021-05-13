@@ -81,4 +81,21 @@
     .lista-qualidade li h3{
         margin-top: 0;
     }
+
+    /*SOBRE,PRODUTOS,PORTFÒLIO,CONTATO - Introdução*/
+    .introducao-interna {
+        margin-top: 0px;
+    }
+    #menu-ativo{
+        border-color: #fff;
+    }
+    .missao-sobre p{
+        font-size: 14px;
+        line-height: 21px;
+        padding-right: 0px;
+    }
+    .missao-sobre ul li{
+        font-size: 14px;
+        line-height: 30px;
+    }
 }
