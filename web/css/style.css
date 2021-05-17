@@ -356,3 +356,15 @@ img{
     background-color: #fec63e;
     padding: 20px 0;
 }
+/*Animações - Simple-Anime*/
+[data-anime]{
+    opacity: 0;    
+}
+.fadeInDown {
+    transform: translate3d(0,-30px,0);
+}
+.anime{
+    opacity: 1;
+    transform: none;    
+    transition: opacity 900ms, transform 900ms;
+}
