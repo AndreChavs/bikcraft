@@ -368,3 +368,12 @@ img{
     transform: none;    
     transition: opacity 900ms, transform 900ms;
 }
+
+
+
+/*HIDDEN*/
+.nao-aparece{
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+}

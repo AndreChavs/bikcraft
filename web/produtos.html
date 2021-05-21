@@ -110,16 +110,22 @@
     <section class="orcamento">
         <div class="container">
             <h2 class="subtitulo">Orçamento</h2>
-            <form action="" id="form-orcamento" class="form grid-8">
+            <form action="./enviar.php" method="POST" id="form-orcamento" class="contato-form grid-8 formphp">
                 <label for="nome">NOME</label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
                 <label for="email">EMAIL</label>
-                <input type="text" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <label for="tel">TELEFONE</label>
                 <input type="text" name="tel" id="tel">
+    
+                    <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                    <input type="text" class="nao-aparece" name="leaveblank">
+                    <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                    <input type="text" class="nao-aparece" name="dontchange" value="http://">
+    
                 <label for="msg">MENSAGEM</label>
-                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-                <button type="submit" class="btn">ENVIAR</button>
+                <textarea name="msg" id="msg" cols="30" rows="10" required></textarea>
+                <button type="submit" class="btn btn-preto">ENVIAR</button>
             </form>
             <div class="dados-orcamento grid-8">
                 <h3>Dados</h3>
